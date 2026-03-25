@@ -1,0 +1,14 @@
+[project]
+name = "pm-backend"
+version = "0.1.0"
+description = "FastAPI backend for Project Management MVP"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi==0.135.2",
+  "pydantic==2.12.5",
+  "uvicorn==0.42.0",
+]
+
+[tool.uv]
+package = false
